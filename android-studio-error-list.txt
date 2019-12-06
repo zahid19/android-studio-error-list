@@ -1,6 +1,6 @@
 # ERROR
  Process: com.mad07.expensetrack, PID: 17530
-    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.mad07.expensetrack/com.mad07.expensetrack.MainActivity}: com.google.firebase.database.DatabaseException: Calls to setPersistenceEnabled() must be made before any other usage of FirebaseDatabase instance.
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.--- --- -- ---.MainActivity}: com.google.firebase.database.DatabaseException: Calls to setPersistenceEnabled() must be made before any other usage of FirebaseDatabase instance.
 
 # Solution        
 creating static field of FirebaseDatabase object will solve this problem of implementing method setPersistenceEnabled().
